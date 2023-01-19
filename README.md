@@ -7,7 +7,7 @@ The MCGU is set up with a single virtual controller, in addition to the physical
 
 ![image](https://user-images.githubusercontent.com/123090510/213490501-32c8664f-c45c-4836-b614-9d95258cc946.png)
 
-When the brake lever is pulled, the input of the lever and the rudder is combined on virtual axes 9 & 10
+When the brake lever is pulled, the input of the lever (axis 8) and the rudder (axis 7) is combined on virtual axes 9 & 10
 
 ![image](https://user-images.githubusercontent.com/123090510/213490105-8e2a2511-136a-4c1b-9411-053a8c8efdb0.png)
 
