@@ -3,6 +3,8 @@ My VKB configuration for a Gunfighter Mk III MCGU grip with T-Rudder Mk IV and d
 
 This configuration, built with VKB Device Config v0.92.51 (NJoy firmware v2.12.0), assumes that you want to use the bottom handle as a brake lever to activate the brakes, and that the level is assigned to axis 8 on the grip, with the rudder pedals on axis 7.
 
+![image](https://user-images.githubusercontent.com/123090510/213531744-862efcfd-1291-4d41-8b8b-cd627650eb7f.png)
+
 The MCGU is set up with a single virtual controller, in addition to the physical controller.
 
 ![image](https://user-images.githubusercontent.com/123090510/213490501-32c8664f-c45c-4836-b614-9d95258cc946.png)
@@ -15,7 +17,13 @@ Those two virtual axes are mapped to a second virtual controller that should app
 
 The MCG Brake is not enabled, and the brake lever axis is hidden so that only the virtual brake input appears in the simulator.
 
-![image](https://user-images.githubusercontent.com/123090510/213489872-2c356e0a-95fc-42d9-9477-96e340278535.png)
+| ![image](https://user-images.githubusercontent.com/123090510/213531907-a35b9d79-d5c7-4fae-9e5c-73f2d97a0923.png) |
+|:--:| 
+| *MCG Brake Disabled* |
+
+| ![image](https://user-images.githubusercontent.com/123090510/213532163-8e42ee37-4eb8-42d8-99f6-0a79ab7e2e3a.png) |
+|:--:| 
+| *Brake Lever axis hidden* |
 
 Differential braking works by applying both brakes when the lever is pulled, and then releasing the opposing brake when the rudder is pushed in one direction. For example, if the rudder is pushed to the right, the left brake is released. This means that you want to configure your sim to use the opposite axis for the brakes and the rudder.
 
